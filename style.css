@@ -1,0 +1,647 @@
+body {
+    margin: 0;
+    padding: 0;
+  } 
+    
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(217, 221, 233, 0.7),rgba(76, 145, 20, 0.555)), url(images/image.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e4d2c; /* deep green */
+    padding: 12px 35px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+
+.logo img {
+    display: relative;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 10px ;
+}
+
+.welcome h1 {
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+}
+
+
+
+
+.banner-text h1 {
+  
+  text-align: center;
+  font-size: 18px;
+
+
+
+}
+
+/* Place text in the middle of the image */
+.banner {
+position: relative;
+width: 100%;
+height: 25px;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+background-color: rgb(106, 122, 60);
+}
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.header {
+  animation: change 20s infinite;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+.welcome {
+  position: relative;
+  width: 55%;
+  height: 40%;
+  background-color: #2e4d2ce8; /* deep green */;
+  margin: 15% 25% 20% 25%;
+  text-align: center;
+  font-family: sans-serif ;
+  border-radius: 3rem;
+}
+
+.welcome h1  {
+  color: white;
+  padding: 8% 0 0 0;
+  font-size: 40px;
+}
+
+
+button {
+  position: relative;
+  padding: 10px 35px 10px 35px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin: 1% 15% 1% 15%;
+  background-color: rgb(232, 238, 233);
+}
+
+button:hover {
+  background-color: rgba(0, 255, 64, 0.425);
+  
+}
+
+
+
+.membership h1 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+
+.membership-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 200px 0;
+  height: 30vh;
+  
+}
+
+.membership-container .membership-box {
+  padding: 20px;
+  width: 20%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: rgba(128, 165, 97, 0.973);
+  margin: 10px;
+}
+
+.membership-container .membership-box h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.membership-container .membership-box p {
+  font-size: em;
+  color: black;
+  margin: 5px 0;
+}
+
+.membership-box h1 {
+  text-decoration: underline;
+}
+
+
+.membership-box button {
+  position: relative;
+  padding: 10px 35px 10px 35px;
+  color: black;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin: 1% 15% 1% 15%;
+  background-color: rgba(35, 117, 35, 0.514);
+}
+
+.membership-box button:hover {
+  background-color: rgb(91, 165, 85);
+  
+}
+
+.title {
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+.ticket-page {
+  background-color: #6d965eef;
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.ticket-page .title h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.tickets form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.tickets label {
+  font-size: 1.2em;
+  color: #555;
+  font-weight: bold;
+}
+
+.tickets input, .tickets select {
+  width: 80%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.tickets .btn {
+  background-color: #4566466b;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tickets .btn:hover {
+  background-color: #45a049;
+}
+
+
+.login h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  text-decoration: underline;
+}
+
+
+.login {
+  background-color: #6d965eef;
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.login button {
+  position: relative;
+  padding: 10px 35px 10px 35px;
+  color: black;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin: 1% 15% 1% 15%;
+  background-color: rgba(35, 117, 35, 0.514);
+  cursor: pointer;
+}
+
+.signup-form {
+  background-color: #6d965eef;
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.signup-form h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.signup-form label {
+  font-size: 1.2em;
+  color: rgba(0, 0, 0, 0.712);
+  font-weight: bold;
+}
+
+.signup-form input, .signup-form select {
+  width: 80%;
+  padding: 12px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.signup-form input:focus, .signup-form select:focus {
+  border-color: #45a049;
+  box-shadow: 0 0 8px rgba(69, 160, 73, 0.5);
+  outline: none;
+}
+
+.signup-form .btn {
+  background-color: #45a049;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.signup-form .btn:hover {
+  background-color: #3e8e41;
+  transform: scale(1.05);
+}
+
+.signup-form .btn:active {
+  transform: scale(0.95);
+}
+
+.sign-up h1 {
+  text-decoration: underline;
+}
+
+.signup-form form .sign-up label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.signup-form form .sign-up input,
+.signup-form form .sign-up select {
+  display: inline-block;
+  width: 250px;
+}
+
+.signup-form form .sign-up br {
+  clear: both;
+}
+
+
+footer {
+  height: 25vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: #2e4d2c; /* deep green */
+  color: #f4f1e1; /* light cream */
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  flex-wrap: wrap;
+}
+
+footer h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #ffb347; /* warm yellow-orange accent */
+}
+
+footer p {
+  margin: 6px 0;
+}
+
+footer a {
+  color: #f4f1e1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ffb347;
+}
+
+.useful, .socials, .terms {
+  flex: 1 1 250px;
+  margin: 10px;
+}
+
+.useful {
+    margin-left: 360px;
+    text-align: center;
+}
+
+.terms {
+    margin-left: -230px;
+    text-align: center;
+}
+
+.useful h1 {
+  text-decoration: underline;
+}
+
+.terms h1 {
+  text-decoration: underline;
+}
+
+.socials h1 {
+  text-decoration: underline;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.facilities {
+  min-height: 100vh;
+    background-image: linear-gradient(rgba(217, 221, 233, 0.7),rgba(76, 145, 20, 0.555)), url(images/family.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+
+.facility-col {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.facility-col img {
+  border-radius: 10px;
+  width: 90%;
+  height: 350px;
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+}
+
+
+.layer p {
+  height: 110%;
+  width: 90%;
+  margin-left: 30.1px;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.6s;
+}
+
+.layer:hover {
+  background: rgba(53, 165, 83, 0.904);
+
+}
+
+
+.layer {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.facility-col:hover .layer {
+  opacity: 1;
+}
+
+.layer h3 {
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  text-align: center;
+}
+
+
+
+
+
+.hotel-page {
+  background-color: #6d965eef;
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.hotel-page .title h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.hotels form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.hotels label {
+  font-size: 1.2em;
+  color: #555;
+  font-weight: bold;
+}
+
+.hotels input, .hotels select {
+  width: 80%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.hotels .btn {
+  background-color: #4566466b;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hotels .btn:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+
+
+
+.hotel-payment-page {
+  max-width: 700px;
+  margin: 50px auto;
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.hotel-payment-page .title h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+  font-size: 2em;
+}
+
+.hotel-payment form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hotel-payment form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+.hotel-payment form input, .hotel-payment form select {
+  margin-bottom: 20px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.hotel-payment form input:focus, .hotel-payment form select:focus {
+  border-color: #45a049;
+  outline: none;
+  box-shadow: 0 0 8px rgba(69, 160, 73, 0.5);
+}
+
+.hotel-payment form button {
+  background-color: #45a049;
+  color: #fff;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hotel-payment form button:hover {
+  background-color: #3e8e41;
+  transform: scale(1.05);
+}
+
+.hotel-payment form button:active {
+  transform: scale(0.95);
+}
+
+
+
+
+
+
+
